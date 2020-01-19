@@ -1,0 +1,170 @@
+*{
+  padding: 0px;
+}
+body{
+  /* background-color: #f3f3f3; */
+  background-color: #eeeeee;
+}
+.bodyofreplypage{
+  background-color: lightblue;
+}
+.bodyofloginpage{
+  background-color: lightblue;
+}
+.logout form button{
+  margin-top: 0px;
+  margin-left: 500px;
+}
+.post{
+   width: 600px;
+   background-color: darkblue ;
+   margin-left: 280px;
+   padding-bottom: 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /* box-shadow:0.7px 0.7px 0.7px 0.7px #ccc; */
+   border-radius: 30px;
+   /* border: 1px solid black; */
+}
+ .bidsubmit{
+  background-color: yellow;
+  color: darkblue;
+  margin-top: 0px;
+  font-size: 25px;
+  margin-left:523px;
+  border: 0.5px solid black;
+  border-radius: 10px;
+}
+ .replysubmit{
+   background-color: #7FFF00;
+   color: black;
+   font-size: 16px;
+   margin-left:10px;
+   border: 0.5px solid black;
+}
+.post .avgbid {
+  margin-left: 5px;
+  color: lightgreen;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: lighter;
+
+}
+.post .postdescription{
+  padding-top: 0px;
+  padding-left: 5px;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: cursive;
+  color: white;
+}
+.post .headerofpost{
+  margin-left: 15px;
+  color: yellow;
+  font-size: 15px;
+  font-family: cursive;
+  font-weight: 300px;
+}
+.post hr{
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.postanewpost{
+  width: 500px;
+  background-color: lightgreen ;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  margin-right: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow:0.7px 0.7px 0.7px 0.7px #ccc; */
+  border-radius: 20px;
+}
+.postanewpost form textarea{
+ background-color: white;
+ font-size: 18px;
+
+}
+/* ............................................................................................................... */
+/* styling of reply.php page */
+/* ........................................................................................................... */
+
+/* .container{
+  min-height: 100%;
+}
+.main{
+  overflow: auto;
+  padding-bottom: 180px;
+} */
+.postviewinreplysection{
+  width: 500px;
+  background-color: white ;
+  margin-left: 0px;
+  padding-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow:0.7px 0.7px 0.7px 0.7px #ccc; */
+  border-radius: 10px;
+}
+.postviewinreplysection h5{
+  font-size: 16px;
+}
+
+ .replyviewinreplypage{
+  width: 400px;
+  background-color: white ;
+  margin-top: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow:0.7px 0.7px 0.7px 0.7px #ccc; */
+  border-radius: 10px;
+}
+.replyviewinreplypage h6{
+  font-size: 14px;
+  font-family: cursive;
+}
+.replyviewinreplypage hr{
+padding-top: 0px;
+padding-bottom: 0px;
+margin-top: 0px;
+}
+
+.replyingbox{
+   width: 400px;
+   background-color: lightgreen ;
+   padding-top: 6px;
+   padding-bottom: 3px;
+   padding-left: 3px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /* box-shadow:0.7px 0.7px 0.7px 0.7px #ccc; */
+   border-radius: 20px;
+   /* border: 1px solid black; */
+}
+/* .footer {
+  height:180px;
+  position: relative;
+  clear: both;
+  margin-top: -180px;
+} */
+.postidsubmitbox{
+
+}
+
+/* styling for loginpage */
+.signupandloginform{
+  width: 350px;
+  background-color: lightgreen ;
+  margin-left: 400px;
+  margin-top: 100px;
+  padding-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow:0.7px 0.7px 0.7px 0.7px #ccc; */
+  border-radius: 30px;
+}
+.signupandloginform form{
+  width: 350px;
+  /* background-color: white ; */
+  padding-top: 10px;
+  margin-left: 18px;
+  padding-bottom: 5px;
+
+}
